@@ -1,0 +1,38 @@
+.social {
+    position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+    right:0; /* Establecemos la barra en la izquierda */
+    top: 200px; /* Bajamos la barra 200px de arriba a abajo */
+    z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+ 
+.social ul {
+    list-style: none;
+    padding: 0;
+}
+.fa-github{
+    font-size: 23px;
+    margin: 10px 10px 0px 0px;
+}
+.fa-github:hover {
+    color: #fff;
+}
+.fa-google-plus{
+    font-size: 23px;
+    margin: 10px 10px 0px 0px;
+}
+.fa-google-plus:hover{
+    color: #ae181f;
+}
+.fa-linkedin-in{
+    font-size: 23px;
+    margin: 10px 10px 0px 0px;
+}
+.fa-linkedin-in:hover{
+    color: #0073b1;
+}
+
+@media (max-width: 991px) { 
+    .social {
+        display: none;
+    }
+}
